@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Great+Vibes&family=Noto+Serif:ital,wght@0,400;0,500;1,400&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Be Vietnam Pro", sans-serif;
+  --font-serif: "Noto Serif", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: #f3f0e9;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+.brand-wordmark {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+}
+
+::selection {
+  background: #b94d2f;
+  color: white;
+}
